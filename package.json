@@ -1,0 +1,25 @@
+{
+	"name": "fmentor-single-price-flex",
+	"version": "1.0.0",
+	"description": "This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+	"main": "index.js",
+	"scripts": {
+		"dev": "sass --watch scss/main.scss css/main.css",
+		"build": "sass scss/main.scss css/main.css",
+		"lint": "prettier --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/al3xback/fmentor-single-price-flex.git"
+	},
+	"author": "alex <al3xback@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/al3xback/fmentor-single-price-flex/issues"
+	},
+	"homepage": "https://github.com/al3xback/fmentor-single-price-flex#readme",
+	"devDependencies": {
+		"prettier": "^2.8.8",
+		"sass": "^1.62.1"
+	}
+}
