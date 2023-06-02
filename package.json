@@ -1,7 +1,7 @@
 {
 	"name": "fmentor-single-price-flex",
 	"version": "1.0.0",
-	"description": "This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+	"description": "single price component project using display flex",
 	"main": "index.js",
 	"scripts": {
 		"dev": "sass --watch scss/main.scss css/main.css",
