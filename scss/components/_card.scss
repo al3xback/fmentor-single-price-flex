@@ -5,7 +5,7 @@
 .card {
 	@include mix.flexbox;
 	@include mix.flex-direction(column);
-	margin: func.em(40, var.$font-size-primary) 0;
+	margin: func.em(40, var.$font-size-primary) 0 func.em(60, var.$font-size-primary);
 	background-color: var.$color-white;
 	@include mix.border-radius(8px);
 	@include mix.box-shadow(

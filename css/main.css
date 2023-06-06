@@ -227,7 +227,7 @@ ol {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin: 2.8571428571em 0;
+  margin: 2.8571428571em 0 4.2857142857em;
   background-color: hsl(0, 0%, 100%);
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
