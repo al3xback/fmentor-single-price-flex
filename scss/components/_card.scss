@@ -16,6 +16,8 @@
 }
 
 .card__block {
+	@include mix.flexbox;
+	@include mix.flex-direction(column);
 	padding: func.em(26, var.$font-size-primary)
 		func.em(24, var.$font-size-primary);
 }
