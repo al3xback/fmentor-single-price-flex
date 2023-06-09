@@ -5,6 +5,7 @@
 .card {
 	@include mix.flexbox;
 	@include mix.flex-direction(column);
+	@include mix.flex-grow(1);
 	margin: func.em(40, var.$font-size-primary) 0
 		func.em(60, var.$font-size-primary);
 	background-color: var.$color-white;
@@ -81,7 +82,6 @@
 
 @media (min-width: 48em) {
 	.card {
-		width: 100%;
 		max-width: func.em(640, var.$font-size-primary);
 	}
 
