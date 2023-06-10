@@ -240,6 +240,7 @@ ol {
   overflow: hidden;
 }
 
+.card__group,
 .card__block {
   display: -webkit-box;
   display: -moz-box;
@@ -253,6 +254,9 @@ ol {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.card__block {
   padding: 1.8571428571em 1.7142857143em;
 }
 
@@ -334,11 +338,13 @@ h3.card__title {
     font-size: 1.2857142857em;
   }
   .card__group {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
   .card__group .card__block {
     width: 50%;
