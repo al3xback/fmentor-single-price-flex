@@ -34,6 +34,7 @@ h2.card__title {
 
 .card__mark {
 	margin-bottom: func.em(16, 15);
+	line-height: 1.3;
 }
 
 .card__block--monthly-subsription,
@@ -78,6 +79,10 @@ h3.card__title {
 
 .card__block .btn {
 	font-size: func.em(16, var.$font-size-primary);
+}
+
+.card__list {
+	line-height: 1.4;
 }
 
 .card__list li + li {
