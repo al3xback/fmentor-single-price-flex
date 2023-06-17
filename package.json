@@ -1,7 +1,7 @@
 {
 	"name": "fmentor-single-price-flex",
 	"version": "1.0.0",
-	"description": "single price component project using display flex",
+	"description": "single price grid component using display flex",
 	"main": "index.js",
 	"scripts": {
 		"dev": "sass --watch scss/main.scss css/main.css",
